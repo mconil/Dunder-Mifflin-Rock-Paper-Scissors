@@ -6,3 +6,5 @@ A game of Rock,Paper and Scissors using gifs from the show the office
 *CSS<br>
 *Javascript<br>
 *Jquery
+
+## Wireframe
