@@ -5,6 +5,7 @@ A game of Rock,Paper and Scissors using gifs from the show "The Office"
 *Html<br>
 *CSS<br>
 *Javascript<br>
-*Jquery
+*Jquery<br>
+*GIPhy Developers API
 
 ## Wireframe
