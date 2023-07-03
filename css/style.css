@@ -1,0 +1,36 @@
+body{
+   background-color: beige;
+}
+#Game{
+    border: 3px solid;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1 rem;
+}
+
+#results{
+    border: 3px solid;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#Players{
+    border:3px solid;
+    text-align: center;
+    margin-top: 1rem;
+}
+.choiceBtn{
+    margin: 20px;
+    font-size: 3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 200ms;
+    
+}
+
+.choiceBtn:hover{
+    transform: scale(1.5);
+}
+
