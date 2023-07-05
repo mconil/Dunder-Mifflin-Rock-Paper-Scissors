@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script defer src="js/script.js" ></script>
     <title>Dunder Mifflin Game</title>
 </head>
    <body>
     <div id="Game">
-        <h2 id= "titleText">Dunder Mifflin presents Rock, Paper, Scissors</h2>
-
-        <button class="choiceBtn">🪨</button>
-        <button class="choiceBtn">📄</button>
-        <button class="choiceBtn">✂️</button>
+        <h2>Dunder Mifflin presents Rock, Paper, Scissors</h2>
+        <div id = "choices">
+        <button class="choiceBtn" select-id="rock">🪨</button>
+        <button class="choiceBtn" select-id="paper">📄</button>
+        <button class="choiceBtn" select-id="scissors">✂️</button>
+        </div>
     </div>
-
-    <div id="results">
+    <div class="results">
         <div><h4>Dunder Mifflin</h4>
-            <div class="result-score">0</div>
+            <div id="score"></div>
         </div>
         <h2>The Dundie Award Scoreboard</h2>
         <div><h4>Staples Inc.</h4>
-            <div class="result-score">0</div>
+            <div id="computerscore"></div>
         </div>
 
     </div>
-    <div id="Players">
-        <h2>Dunder Mifflin chooses</h2>
-        <h2>Staples Inc chooses</h2>
-    </div>
+    <div class="Players">
+        <h2>Dunder Mifflin chooses</h2><div id="userChoice"></div>
+        <h2>Staples Inc chooses</h2><div id="computerChoice"></div>
+   
+
    </body>
 </html>

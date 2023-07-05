@@ -2,25 +2,29 @@ body{
    background-color: beige;
 }
 #Game{
+    margin: 5rem;
     border: 3px solid;
     text-align: center;
-    margin-top: 1rem;
-    margin-left: 1 rem;
+    margin-top: 6rem;
+    margin-left: 3 rem;
 }
 
-#results{
+.results{
+    margin: 5rem;
     border: 3px solid;
     text-align: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    
 }
-#Players{
+.Players{
+    margin: 5rem;
     border:3px solid;
     text-align: center;
     margin-top: 1rem;
 }
 .choiceBtn{
-    margin: 20px;
+    margin: 2rem;
     font-size: 3.5rem;
     background: none;
     border: none;
@@ -34,3 +38,9 @@ body{
     transform: scale(1.5);
 }
 
+#score{
+    font-size: 2rem;
+}
+#computerscore{
+    font-size: 2rem;
+}
