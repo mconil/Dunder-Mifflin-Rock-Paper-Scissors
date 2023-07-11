@@ -1,6 +1,8 @@
 body{
    background-color: beige;
 }
+
+
 #Game{
     margin: 5rem;
     border: 3px solid;
@@ -9,19 +11,46 @@ body{
     margin-left: 3 rem;
 }
 
+
 .results{
     margin: 5rem;
     border: 3px solid;
     text-align: center;
     align-items: center;
     margin-top: 1rem;
+   
     
 }
-.Players{
+.resultpicks{
+    display: grid;
     margin: 5rem;
-    border:3px solid;
-    text-align: center;
+    border:3px ;
+    justify-content:center;
+    justify-items: center;
     margin-top: 1rem;
+}
+
+
+.userChoice{
+    font-size: 4rem;
+    opacity: 3;
+}
+
+
+.computerpicks{
+    
+    margin: 5rem;
+    border:3px ;
+    text-align: center;
+    margin-bottom: 3rem;
+    right:10px;
+}
+
+
+.computerChoice{
+    font-size: 4rem;
+
+
 }
 .choiceBtn{
     margin: 2rem;
@@ -38,9 +67,10 @@ body{
     transform: scale(1.5);
 }
 
-#score{
+.score{
     font-size: 2rem;
+    color: rgb(75, 64, 64);
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
 }
-#computerscore{
-    font-size: 2rem;
-}
+

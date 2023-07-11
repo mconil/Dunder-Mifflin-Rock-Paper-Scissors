@@ -10,28 +10,40 @@
     <title>Dunder Mifflin Game</title>
 </head>
    <body>
-    <div id="Game">
-        <h2>Dunder Mifflin presents Rock, Paper, Scissors</h2>
-        <div id = "choices">
-        <button class="choiceBtn" select-id="rock">🪨</button>
-        <button class="choiceBtn" select-id="paper">📄</button>
-        <button class="choiceBtn" select-id="scissors">✂️</button>
+    <div id ="Game">
+        <img src="data:image/png;base64,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" alt="theoffice">
+        <h2>presents Rock, Paper, Scissors</h2>
+        <div class= "choices">
+        <button class="choiceBtn" data-selection="rock">🪨</button>
+        <button class="choiceBtn" data-selection="paper">📄</button>
+        <button class="choiceBtn" data-selection="scissors">✂️</button>
         </div>
     </div>
     <div class="results">
         <div><h4>Dunder Mifflin</h4>
-            <div id="score"></div>
+            <span class="score" data-your-score>0</span>
         </div>
         <h2>The Dundie Award Scoreboard</h2>
         <div><h4>Staples Inc.</h4>
-            <div id="computerscore"></div>
+            <span class="score" data-computer-score>0</span>
+            
         </div>
 
     </div>
-    <div class="Players">
-        <h2>Dunder Mifflin chooses</h2><div id="userChoice"></div>
-        <h2>Staples Inc chooses</h2><div id="computerChoice"></div>
-   
-
+    <div class="resultpicks">
+        <div>
+        <div data-final-column>
+        <h2>Dunder Mifflin chooses</h2>
+        <span id="userChoice"></span>
+        <div id ="endResult"></div>
+        
+        </div>
+        <div>
+        <h2>Staples Inc chooses</h2>
+        <span id="computerChoice"></span>
+        <div id="computerResult"></div>
+        </div>
+    </div>   
+    </div>
    </body>
 </html>
